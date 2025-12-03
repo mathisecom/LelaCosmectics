@@ -23,6 +23,7 @@
         },
         "message_8iKqNW": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Livraison Offerte en France",
             "url": ""
