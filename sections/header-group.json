@@ -23,9 +23,8 @@
         },
         "message_8iKqNW": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "Livraison Offerte en France",
+            "text": "Paiement Sécurisés",
             "url": ""
           }
         }
@@ -41,9 +40,9 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#141f19",
+        "background": "#e6edee",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#1a1a1a"
       }
     },
     "header": {
