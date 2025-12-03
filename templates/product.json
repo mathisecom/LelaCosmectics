@@ -56,6 +56,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_jKfNRN": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_naeJmh\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div class=\"main-product__block main-product__block-custom_liquid\">\n      <div class=\"m-product-text\">\n        <style>\n          #delivery-container {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-size: 0.85rem;\n            margin-bottom: 1rem;\n            text-align: center;\n          }\n          #delivery-icon {\n            font-size: inherit;\n            margin-right: 0.35rem;\n            vertical-align: middle;\n            width: 16px;\n            height: 16px;\n          }\n          #delivery-text {\n            margin: 0;\n          }\n          #delivery-date {\n            font-weight: bold;\n          }\n          .product-info__block-item.product-info__block-item-small #delivery-container {\n            margin-bottom: calc(var(--product-info-gap) / 4);\n          }\n          @media screen and (max-width: 749px) {\n            #delivery-container {\n              font-size: 0.75rem;\n            }\n          }\n        </style>\n\n        <div id=\"delivery-container\">\n          <svg id=\"delivery-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 14 13\" fill=\"none\">\n            <path d=\"M8.60809 0.914506L8.6081 0.914508L13.2956 3.49263C13.3613 3.52876 13.416 3.58186 13.4542 3.64639C13.4924 3.71091 13.5125 3.78449 13.5125 3.85945V9.95319C13.5125 10.0282 13.4924 10.1017 13.4542 10.1663C13.416 10.2308 13.3613 10.2839 13.2956 10.32L8.6081 12.8981L8.63219 12.9419L8.60809 12.8981C8.54626 12.9322 8.47683 12.95 8.40626 12.95C8.33568 12.95 8.26625 12.9322 8.20442 12.8981L8.18032 12.9419L8.20442 12.8981L6.13043 11.7574L6.53408 11.0242L7.91341 11.7829L7.98751 11.8237V11.7391V6.7146V6.68504L7.9616 6.67079L3.51693 4.22627C3.45128 4.19012 3.39653 4.13702 3.3584 4.07249C3.32027 4.00797 3.30015 3.9344 3.30015 3.85945C3.30015 3.7845 3.32027 3.71092 3.3584 3.6464C3.39653 3.58188 3.45128 3.52877 3.51693 3.49262L8.20442 0.914508L8.20442 0.914506C8.26625 0.880489 8.33568 0.862653 8.40626 0.862653C8.47683 0.862653 8.54626 0.880489 8.60809 0.914506ZM8.43035 1.77282L8.40626 1.75957L8.38216 1.77282L4.66732 3.81563L4.58765 3.85945L4.66732 3.90326L8.38216 5.94607L8.40626 5.95932L8.43035 5.94607L12.1452 3.90326L12.2249 3.85945L12.1452 3.81563L8.43035 1.77282ZM12.6491 9.71998L12.675 9.70573V9.67617V4.65163V4.56707L12.6009 4.60782L8.85091 6.67032L8.82501 6.68457V6.71413V11.7387V11.8232L8.8991 11.7825L12.6491 9.71998Z\" fill=\"black\" stroke=\"#E9E9E9\" stroke-width=\"0.1\"></path>\n            <path d=\"M4.0625 6.78131H0.5625V6.09381H4.0625V6.78131ZM5 10.5313H1.5V9.84381H5V10.5313ZM5.9375 8.65631H2.4375V7.96881H5.9375V8.65631Z\" fill=\"black\" stroke=\"#FBFAF9\" stroke-width=\"0.25\"></path>\n          </svg>\n\n          <p id=\"delivery-text\">Commandez maintenant et recevez-le avant le <span id=\"delivery-date\">vendredi 12 décembre</span></p>\n        </div>\n\n        <script>\n          function addBusinessDays(startDate, businessDaysToAdd) {\n            const date = new Date(startDate.getTime());\n            let added = 0;\n\n            while (added < businessDaysToAdd) {\n              date.setDate(date.getDate() + 1);\n              const day = date.getDay();\n              if (day !== 0 && day !== 6) {\n                added++;\n              }\n            }\n            return date;\n          }\n\n          function calculateDeliveryDate(country) {\n            const today = new Date();\n            let businessDaysToAdd = 7;\n\n            const deliveryDate = addBusinessDays(today, businessDaysToAdd);\n\n            const options = { weekday: 'long', month: 'long', day: 'numeric' };\n            return deliveryDate.toLocaleDateString('fr-FR', options);\n          }\n\n          function fetchCountry() {\n            fetch('https://ipapi.co/json/')\n              .then(response => response.json())\n              .then(data => {\n                const country = data.country_name;\n                const deliveryDate = calculateDeliveryDate(country);\n                document.getElementById('delivery-date').textContent = deliveryDate;\n              })\n              .catch(error => {\n                console.error('Error fetching location:', error);\n                const deliveryDate = calculateDeliveryDate('France');\n                document.getElementById('delivery-date').textContent = deliveryDate;\n              });\n          }\n\n          fetchCountry();\n        </script>\n\n      </div>\n    </div>\n  </div>\n</div>"
+          }
+        },
         "liquid_6VDV6N": {
           "type": "liquid",
           "settings": {
@@ -90,6 +96,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "liquid_jKfNRN",
         "liquid_6VDV6N",
         "collapsible_text_gLMqi9",
         "collapsible_text_brzgMn"
@@ -110,6 +117,132 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "rich_text_H9EBTp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Yh6HTY": {
+          "type": "heading",
+          "settings": {
+            "text": "+3,000 Clients Satisfaits",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yh6HTY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_link_blocks_ybDU4X": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_nMKCCR": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_MpmCrq": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_agre66": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_AGrhmJ": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_jAYQyt": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_6aMNDr": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_nMKCCR",
+        "item_MpmCrq",
+        "item_agre66",
+        "item_AGrhmJ",
+        "item_jAYQyt",
+        "item_6aMNDr"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "testimonials_dkB4Nw": {
@@ -197,6 +330,8 @@
   },
   "order": [
     "main",
+    "rich_text_H9EBTp",
+    "image_link_blocks_ybDU4X",
     "testimonials_dkB4Nw",
     "related-products"
   ]
