@@ -87,6 +87,14 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
+        },
+        "description_c3fPEE": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
         }
       },
       "block_order": [
@@ -99,7 +107,8 @@
         "liquid_jKfNRN",
         "liquid_6VDV6N",
         "collapsible_text_gLMqi9",
-        "collapsible_text_brzgMn"
+        "collapsible_text_brzgMn",
+        "description_c3fPEE"
       ],
       "settings": {
         "full_width": true,
