@@ -14,6 +14,32 @@
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#141f19",
+            "title": "Livraison Offerte",
+            "content": ""
+          }
+        },
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#141f19",
+            "title": "Paiement Sécurisés",
+            "content": ""
+          }
+        },
         "customer-support": {
           "type": "item",
           "settings": {
@@ -23,41 +49,15 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#141f19",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
-          }
-        },
-        "discount": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#141f19",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
-          }
-        },
-        "payment": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 32,
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "#141f19",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "title": "Service Client 7J/7J",
+            "content": ""
           }
         }
       },
       "block_order": [
-        "customer-support",
+        "payment",
         "discount",
-        "payment"
+        "customer-support"
       ],
       "settings": {
         "full_width": true,
