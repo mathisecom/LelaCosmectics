@@ -82,6 +82,81 @@
         "product_card_text_color": ""
       }
     },
+    "text_with_icons_iUtzra": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_A3Vtg7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#e6edee",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_hbeenK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#e6edee",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_QdAWT4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#e6edee",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_Xb4jBh": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 36,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#e6edee",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_A3Vtg7",
+        "item_hbeenK",
+        "item_QdAWT4",
+        "item_Xb4jBh"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -138,6 +213,7 @@
   "order": [
     "slideshow",
     "featured_collection_9BQ9Gd",
+    "text_with_icons_iUtzra",
     "faq"
   ]
 }
