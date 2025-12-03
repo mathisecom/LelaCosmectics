@@ -54,7 +54,14 @@
       "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "baume-a-levres-rose",
+          "creme-de-visage",
+          "gant-de-crin",
+          "gel-de-douche",
+          "masque-de-visage",
+          "savon-noir"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
