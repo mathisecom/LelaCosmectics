@@ -198,7 +198,11 @@
       "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "gamme-visage",
+          "notre-gamme-complete",
+          "duo-teint-eclatant"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
@@ -266,7 +270,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "background_dots": "#ffffff"
       }
     },
     "rich_text_dYFdxV": {
