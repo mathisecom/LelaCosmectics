@@ -139,13 +139,13 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify://shop_images/1_574d772c-59d8-4c67-a479-fdb1142c411d.avif",
-            "mobile_icon_width": 56,
-            "icon_width": 56,
+            "mobile_icon_width": 60,
+            "icon_width": 60,
             "icon_background_type": "circle",
             "icon_background": "#e6edee",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Bien-être et conscience",
+            "content": "<p>Nous ciblons le bien-être global de votre peau en adoptant une approche holistique de la beauté pour des résultats équilibrés et durables.</p>"
           }
         },
         "item_hbeenK": {
@@ -153,13 +153,13 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify://shop_images/3_c3e6da11-617b-4ee1-b199-77fe0760f701.avif",
-            "mobile_icon_width": 56,
-            "icon_width": 56,
+            "mobile_icon_width": 60,
+            "icon_width": 60,
             "icon_background_type": "circle",
             "icon_background": "#e6edee",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Science",
+            "content": "<p>Nous nous basons sur des recherches scientifiques et les dernières avancées en dermatologie pour offrir des soins de qualité pour votre peau.</p>"
           }
         },
         "item_QdAWT4": {
@@ -167,13 +167,13 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify://shop_images/2_1850c82a-c171-4783-9c99-982ea65e856b.avif",
-            "mobile_icon_width": 56,
-            "icon_width": 56,
+            "mobile_icon_width": 60,
+            "icon_width": 60,
             "icon_background_type": "circle",
             "icon_background": "#e6edee",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "title": "Naturel",
+            "content": "<p>Notre marque utilise des ingrédients naturels de qualité supérieure pour des soins de la peau respectueux de l'environnement et respectueux de votre santé</p>"
           }
         }
       },
