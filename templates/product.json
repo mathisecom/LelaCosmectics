@@ -131,6 +131,12 @@
     "rich_text_H9EBTp": {
       "type": "rich-text",
       "blocks": {
+        "subheading_NCJbx3": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
         "heading_Yh6HTY": {
           "type": "heading",
           "settings": {
@@ -142,6 +148,7 @@
         }
       },
       "block_order": [
+        "subheading_NCJbx3",
         "heading_Yh6HTY"
       ],
       "name": "Rich text",
@@ -160,6 +167,7 @@
         "item_nMKCCR": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_39.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -172,6 +180,7 @@
         "item_MpmCrq": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_42.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -184,6 +193,7 @@
         "item_agre66": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_41.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -196,6 +206,7 @@
         "item_AGrhmJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_40.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -208,6 +219,7 @@
         "item_jAYQyt": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_44.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -220,6 +232,7 @@
         "item_6aMNDr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_43.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
