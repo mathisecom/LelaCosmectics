@@ -128,6 +128,22 @@
         "input_text_color": ""
       }
     },
+    "scrolling_text_3rwTet": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#e6edee",
+        "background_gradient": "",
+        "text_color": "#2e4147",
+        "text_gradient": ""
+      }
+    },
     "rich_text_H9EBTp": {
       "type": "rich-text",
       "blocks": {
@@ -352,6 +368,7 @@
   },
   "order": [
     "main",
+    "scrolling_text_3rwTet",
     "rich_text_H9EBTp",
     "image_link_blocks_ybDU4X",
     "testimonials_dkB4Nw",
