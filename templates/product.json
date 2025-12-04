@@ -128,22 +128,6 @@
         "input_text_color": ""
       }
     },
-    "scrolling_text_3rwTet": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "#e6edee",
-        "background_gradient": "",
-        "text_color": "#2e4147",
-        "text_gradient": ""
-      }
-    },
     "ss_scrolling_logo_cloud_5_TNKp9R": {
       "type": "ss-scrolling-logo-cloud-5",
       "blocks": {
@@ -209,8 +193,8 @@
         "margin_bottom": 0,
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 0,
         "full_width": false,
@@ -218,6 +202,57 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "media_with_text_Uz6H3V": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_xNHydD": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#2e4147",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xNHydD"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "scrolling_text_3rwTet": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#e6edee",
+        "background_gradient": "",
+        "text_color": "#2e4147",
+        "text_gradient": ""
       }
     },
     "rich_text_H9EBTp": {
@@ -444,8 +479,9 @@
   },
   "order": [
     "main",
-    "scrolling_text_3rwTet",
     "ss_scrolling_logo_cloud_5_TNKp9R",
+    "media_with_text_Uz6H3V",
+    "scrolling_text_3rwTet",
     "rich_text_H9EBTp",
     "image_link_blocks_ybDU4X",
     "testimonials_dkB4Nw",
