@@ -98,14 +98,90 @@
         "button_text_color": ""
       }
     },
+    "ss_scrolling_logo_cloud_5_etqk4Q": {
+      "type": "ss-scrolling-logo-cloud-5",
+      "blocks": {
+        "image_JC3zTr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Paru_dans_7_x400_7936558b-8f1d-4309-a915-14e1a1b64bcb.png",
+            "url": ""
+          }
+        },
+        "image_maLK8C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Paru_dans_8_x400_7b37f10a-92cc-47b4-93ae-42d5a5723401.png",
+            "url": ""
+          }
+        },
+        "image_PtCChq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Paru_dans_5_x400_ec4b15f2-3e0d-4e81-ae35-e5084f168882.png",
+            "url": ""
+          }
+        },
+        "image_dcmY79": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Paru_dans_6_x400_a4a354bc-fc14-4d28-838a-5cbef5095775.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_JC3zTr",
+        "image_maLK8C",
+        "image_PtCChq",
+        "image_dcmY79"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "<h2>DÉJA VU SUR</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 13,
+        "heading_size_mobile": 12,
+        "heading_height": 130,
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 16,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 130,
+        "card_width_mobile": 100,
+        "heading_color": "#2e4147",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "featured_collection_9BQ9Gd": {
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
         "collection": "",
         "products": [
-          "baume-a-levres-rose",
           "creme-de-visage",
+          "baume-a-levres-rose",
           "gant-de-crin",
           "gel-de-douche",
           "masque-de-visage",
@@ -559,6 +635,7 @@
   "order": [
     "slideshow",
     "impact_text_p4MgQJ",
+    "ss_scrolling_logo_cloud_5_etqk4Q",
     "featured_collection_9BQ9Gd",
     "text_with_icons_iUtzra",
     "media_with_text_h9YT3t",
