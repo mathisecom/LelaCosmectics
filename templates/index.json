@@ -155,9 +155,9 @@
         "card_width_desktop": 130,
         "card_width_mobile": 100,
         "heading_color": "#2e4147",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -425,6 +425,7 @@
         "item_BH3Tbk": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_39.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -437,6 +438,7 @@
         "item_exd4qF": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_42.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -449,6 +451,7 @@
         "item_yYJzzT": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_41.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -461,6 +464,7 @@
         "item_eqfYww": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_40.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
