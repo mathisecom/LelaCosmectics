@@ -15,7 +15,7 @@
         "liquid_kYKBTm": {
           "type": "liquid",
           "settings": {
-            "liquid": ""
+            "liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n          <div class=\"m-product-text\">\n            <style>\n  .badges-container {\n    display: flex;\n    gap: 6px; /* Réduction de l'espacement entre les badges */\n    align-items: center;\n  }\n\n  .badge {\n    display: inline-block;\n    padding: 4px 10px; /* Taille réduite du badge */\n    font-size: 12px; /* Texte plus petit */\n    font-weight: bold;\n    color: white;\n    background: linear-gradient(135deg, #02444C, #026672); /* Dégradé adapté */\n    border-radius: 15px; /* Arrondi plus petit */\n    text-transform: uppercase;\n    white-space: nowrap;\n  }\n</style>\n\n<div class=\"badges-container\">\n  <div class=\"badge\">Best Seller</div>\n  <div class=\"badge\">94/100 Yuka - EXCELLENT 💚</div>\n</div>\n          </div>\n        \n</div>"
           }
         },
         "liquid_zim4Q8": {

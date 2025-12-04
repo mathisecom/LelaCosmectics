@@ -537,8 +537,8 @@
             "show_rating": true,
             "rating": 4,
             "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Ma peau n’a jamais été aussi lumineuse !",
+            "content": "<p>La crème de visage est incroyable, elle hydrate sans graisser et mon teint est beaucoup plus uniforme. J’adore.</p>"
           }
         },
         "testimonial_jgF6W4": {
@@ -548,8 +548,8 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Le baume à lèvres rose est devenu mon indispensable.",
+            "content": "<p>Il laisse une légère teinte super jolie et hydrate vraiment bien. Je recommande à 100 %.</p>"
           }
         },
         "testimonial_7YAg3f": {
@@ -559,8 +559,8 @@
             "show_rating": true,
             "rating": 4,
             "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Le gant de crin change tout !",
+            "content": "<p>Après deux utilisations, ma peau est plus douce et mes taches se voient moins. TOP.</p>"
           }
         }
       },
