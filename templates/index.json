@@ -242,8 +242,8 @@
           "type": "product",
           "settings": {
             "product": "",
-            "horizontal_position": 52,
-            "vertical_position": 25
+            "horizontal_position": 48,
+            "vertical_position": 52
           }
         }
       },
@@ -254,6 +254,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "image": "shopify://shop_images/CREA_1080X1080_36.jpg",
         "title": "",
         "content": "",
         "background": "",
