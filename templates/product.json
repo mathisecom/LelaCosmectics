@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_kYKBTm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "liquid_zim4Q8": {
           "type": "liquid",
           "settings": {
@@ -98,6 +104,7 @@
         }
       },
       "block_order": [
+        "liquid_kYKBTm",
         "liquid_zim4Q8",
         "title",
         "price",
