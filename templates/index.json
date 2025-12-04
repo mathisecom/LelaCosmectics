@@ -536,7 +536,7 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
+            "author": "Lalie S.",
             "title": "Ma peau n’a jamais été aussi lumineuse !",
             "content": "<p>La crème de visage est incroyable, elle hydrate sans graisser et mon teint est beaucoup plus uniforme. J’adore.</p>"
           }
@@ -558,16 +558,40 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
+            "author": "Julia A.",
             "title": "Le gant de crin change tout !",
             "content": "<p>Après deux utilisations, ma peau est plus douce et mes taches se voient moins. TOP.</p>"
+          }
+        },
+        "testimonial_XwCRgt": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Rosy J.",
+            "title": "Gel douche au parfum incroyable.",
+            "content": "<p>Texture agréable, mousse fine, et surtout il laisse la peau douce sans tiraillements. Je rachèterai.</p>"
+          }
+        },
+        "testimonial_C9zP6t": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Sonia J.",
+            "title": "Masque visage très efficace.",
+            "content": "<p>Dès la première application, ma peau était plus éclatante. Idéal pour les peaux mates comme la mienne.</p>"
           }
         }
       },
       "block_order": [
         "testimonial_jbckVQ",
         "testimonial_jgF6W4",
-        "testimonial_7YAg3f"
+        "testimonial_7YAg3f",
+        "testimonial_XwCRgt",
+        "testimonial_C9zP6t"
       ],
       "name": "Testimonials",
       "settings": {
