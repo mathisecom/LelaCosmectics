@@ -210,11 +210,13 @@
         "image_xNHydD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_45.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "icon_width": 48,
+            "custom_icon": "shopify://shop_images/CREA_1080X1080_43.png",
+            "icon_width": 80,
             "subheading": "",
             "title": "Votre peau compte.",
             "content": "<p>Nous formulons des soins essentiels, pensés pour l'éclat des peaux noires, mates et métissées. <strong>Notre Mission :</strong> corriger l’hyperpigmentation, révéler l’éclat naturel et préserver l’intégrité des peaux foncées.</p>",
