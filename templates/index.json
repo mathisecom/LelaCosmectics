@@ -281,6 +281,7 @@
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
+            "custom_icon": "shopify://shop_images/CREA_1080X1080_41.png",
             "icon_width": 80,
             "subheading": "",
             "title": "Votre peau compte.",
