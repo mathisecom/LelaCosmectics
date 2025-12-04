@@ -416,7 +416,7 @@
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#2e4147"
       }
     },
     "image_link_blocks_gzdnqJ": {
@@ -477,6 +477,7 @@
         "item_Pw8KWh": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image_f98c4842-b4be-4f0e-8690-7335152516ad_1.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -489,6 +490,7 @@
         "item_MWyYMQ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_44.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -510,7 +512,7 @@
       "name": "Image link blocks",
       "settings": {
         "full_width": false,
-        "block_size": "medium",
+        "block_size": "large",
         "subheading": "",
         "title": "",
         "content": "",
