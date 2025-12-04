@@ -138,8 +138,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 36,
-            "icon_width": 36,
+            "custom_icon": "shopify://shop_images/1_574d772c-59d8-4c67-a479-fdb1142c411d.avif",
+            "mobile_icon_width": 56,
+            "icon_width": 56,
             "icon_background_type": "circle",
             "icon_background": "#e6edee",
             "icon_color": "",
@@ -151,8 +152,9 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 36,
-            "icon_width": 36,
+            "custom_icon": "shopify://shop_images/3_c3e6da11-617b-4ee1-b199-77fe0760f701.avif",
+            "mobile_icon_width": 56,
+            "icon_width": 56,
             "icon_background_type": "circle",
             "icon_background": "#e6edee",
             "icon_color": "",
@@ -164,34 +166,21 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 36,
-            "icon_width": 36,
+            "custom_icon": "shopify://shop_images/2_1850c82a-c171-4783-9c99-982ea65e856b.avif",
+            "mobile_icon_width": 56,
+            "icon_width": 56,
             "icon_background_type": "circle",
             "icon_background": "#e6edee",
             "icon_color": "",
             "title": "Customer service",
             "content": "<p>We are available from monday to friday to answer your questions.</p>"
           }
-        },
-        "item_Xb4jBh": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 36,
-            "icon_width": 36,
-            "icon_background_type": "circle",
-            "icon_background": "#e6edee",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
-          }
         }
       },
       "block_order": [
         "item_A3Vtg7",
         "item_hbeenK",
-        "item_QdAWT4",
-        "item_Xb4jBh"
+        "item_QdAWT4"
       ],
       "name": "Text with icons",
       "settings": {
