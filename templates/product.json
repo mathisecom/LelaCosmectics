@@ -71,7 +71,7 @@
         "collapsible_text_gLMqi9": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-box",
             "icon_width": 20,
             "title": "Informations sur la livraisons",
             "content": "<p>Nous vous livrons <span style=\"text-decoration:underline\">gratuitement</span> en <strong>5 à 7 jours ouvrés</strong> (du lundi au vendredi) via notre partenaire DHL à votre domicile.</p><p>Notre entrepôt se trouve en <span style=\"text-decoration:underline\">France</span>, vous ne risquez donc <strong>aucun frais de douane</strong> à la réception du colis.</p><p>Pas de mauvaise surprise !</p>",
@@ -81,7 +81,7 @@
         "collapsible_text_brzgMn": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
+            "icon": "picto-return",
             "icon_width": 20,
             "title": "14 jours pour changer d'avis",
             "content": "<p>Pour les commandes passées, vous disposez de 14 jours (à compter de la date de réception de l'article) pour changer d'avis.</p>",
@@ -93,7 +93,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "collapse_content": false
+            "collapse_content": true
           }
         }
       },
