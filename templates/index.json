@@ -36,7 +36,6 @@
       "block_order": [
         "slide-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -48,6 +47,55 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "impact_text_p4MgQJ": {
+      "type": "impact-text",
+      "blocks": {
+        "item_zHmmBQ": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "content": "<h2><em><strong>Fabriqué en France</strong></em></h2><p>Nos cosmétiques sont imaginés et réalisés en France avec minutie et savoir faire</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_94RPEm": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "content": "<h2><em><strong>95% Naturel</strong></em></h2><p></p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_zHmmBQ",
+        "item_94RPEm"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "text_alignment": "center",
+        "impact_text_style": "outline",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "#e6edee",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "featured_collection_9BQ9Gd": {
@@ -521,6 +569,7 @@
   },
   "order": [
     "slideshow",
+    "impact_text_p4MgQJ",
     "featured_collection_9BQ9Gd",
     "text_with_icons_iUtzra",
     "media_with_text_h9YT3t",
