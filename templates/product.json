@@ -93,7 +93,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "collapse_content": true
+            "collapse_content": false
           }
         }
       },
@@ -216,8 +216,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "Votre peau compte.",
+            "content": "<p>Nous formulons des soins essentiels, pensés pour l'éclat des peaux noires, mates et métissées. <strong>Notre Mission :</strong> corriger l’hyperpigmentation, révéler l’éclat naturel et préserver l’intégrité des peaux foncées.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#2e4147",
