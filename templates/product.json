@@ -74,7 +74,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Informations sur la livraisons",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "content": "<p>Nous vous livrons <span style=\"text-decoration:underline\">gratuitement</span> en <strong>5 à 7 jours ouvrés</strong> (du lundi au vendredi) via notre partenaire DHL à votre domicile.</p><p>Notre entrepôt se trouve en <span style=\"text-decoration:underline\">France</span>, vous ne risquez donc <strong>aucun frais de douane</strong> à la réception du colis.</p><p>Pas de mauvaise surprise !</p>",
             "page": ""
           }
         },
@@ -83,8 +83,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "14 jours pour changer d'avis",
+            "content": "<p>Pour les commandes passées, vous disposez de 14 jours (à compter de la date de réception de l'article) pour changer d'avis.</p>",
             "page": ""
           }
         },
