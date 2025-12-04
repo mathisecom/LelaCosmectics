@@ -276,6 +276,12 @@
     "rich_text_dYFdxV": {
       "type": "rich-text",
       "blocks": {
+        "subheading_PNhn96": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
         "heading_RLkLyT": {
           "type": "heading",
           "settings": {
@@ -287,6 +293,7 @@
         }
       },
       "block_order": [
+        "subheading_PNhn96",
         "heading_RLkLyT"
       ],
       "name": "Rich text",
