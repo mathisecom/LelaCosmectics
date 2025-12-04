@@ -27,7 +27,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 13,
             "background": "",
             "background_gradient": ""
           }
@@ -281,7 +281,7 @@
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "icon_width": 48,
+            "icon_width": 80,
             "subheading": "",
             "title": "Votre peau compte.",
             "content": "<p>Nous formulons des soins essentiels, pensés pour l'éclat des peaux noires, mates et métissées. </p><p><strong>Notre Mission :</strong> corriger l’hyperpigmentation, révéler l’éclat naturel et préserver l’intégrité des peaux foncées.</p>",
