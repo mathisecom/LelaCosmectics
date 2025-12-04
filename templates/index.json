@@ -69,7 +69,7 @@
           "settings": {
             "title": "",
             "subheading": "",
-            "content": "<h2><em><strong>95% Naturel</strong></em></h2><p></p>",
+            "content": "<h2><em><strong>95% Naturel</strong></em></h2><p>D'ingrédients d'origine naturelle dans nos formules</p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -197,7 +197,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "title": "",
+        "title": "NOS 3 PILLIERS",
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
