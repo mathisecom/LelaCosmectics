@@ -235,6 +235,39 @@
         "text_gradient": ""
       }
     },
+    "shop_the_look_bAnRNk": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_zfCiJf": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 52,
+            "vertical_position": 25
+          }
+        }
+      },
+      "block_order": [
+        "product_zfCiJf"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
+    },
     "rich_text_dYFdxV": {
       "type": "rich-text",
       "blocks": {
@@ -481,6 +514,7 @@
     "media_with_text_h9YT3t",
     "featured_collection_tztjjA",
     "scrolling_text_egPpKX",
+    "shop_the_look_bAnRNk",
     "rich_text_dYFdxV",
     "image_link_blocks_gzdnqJ",
     "testimonials_7jGCq9",
