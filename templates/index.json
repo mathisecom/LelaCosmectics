@@ -341,11 +341,11 @@
       "name": "Scrolling text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
+        "text": "CLEAN RESPECTUEUX | 97% D'INGREDIENTS NATURELS | SANS ALLERGÈNES",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
-        "scrolling_speed": 10,
+        "scrolling_speed": 6,
         "background": "#e6edee",
         "background_gradient": "",
         "text_color": "#2e4147",
