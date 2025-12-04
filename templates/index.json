@@ -198,14 +198,7 @@
       "name": "Featured collection",
       "settings": {
         "collection": "",
-        "products": [
-          "gel-de-douche",
-          "savon-noir",
-          "gant-de-crin",
-          "baume-a-levres-rose",
-          "masque-de-visage",
-          "creme-de-visage"
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
@@ -213,7 +206,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Nouveautés",
+        "title": "Nos Gammes",
         "content": "",
         "link_url": "",
         "link_text": "",
